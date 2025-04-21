@@ -135,6 +135,9 @@ Este proyecto es una API REST para la gestión de usuarios, que incluye funciona
 ## Documentación de la API
 http://localhost:8080/user-api/swagger-ui/index.html
 
+## Diagrama de la Solución en la raiz del proyecto
+./diagrama_user_bci.png
+
 ## Contacto
 
 Javier Aguirre  

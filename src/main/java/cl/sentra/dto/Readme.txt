@@ -131,6 +131,10 @@ Este proyecto es una API REST para la gestión de usuarios, que incluye funciona
   - **Usuario**: `sa`
   - **Contraseña**: *(vacío)*
 
+
+## Documentación de la API
+http://localhost:8080/user-api/swagger-ui/index.html
+
 ## Contacto
 
 Javier Aguirre  

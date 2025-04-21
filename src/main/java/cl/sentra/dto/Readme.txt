@@ -10,21 +10,30 @@ Este proyecto es una API REST para la gestión de usuarios, que incluye funciona
 
 ## Configuración del Proyecto
 
-1. Clona el repositorio o copia los archivos del proyecto en tu máquina local.
-2. Navega al directorio raíz del proyecto: 
-    cd /home/jaguirre/develop/jobtest/workspace/user-api
+1. Clona el repositorio desde GitHub:
+   ```bash
+   git clone https://github.com/xabier-git/user-api.git
+   ```
+2. Navega al directorio raíz del proyecto:
+   ```bash
+   cd user-api
+   ```
 3. Verifica que el archivo `application.properties` esté configurado correctamente en `src/main/resources`. Por defecto, el proyecto utiliza H2 como base de datos en memoria.
 
 ## Compilar y Construir el Proyecto
 
 1. Limpia y compila el proyecto usando Maven:
-    mvn clean install
+   ```bash
+   mvn clean install
+   ```
 2. Si la compilación es exitosa, se generará un archivo JAR ejecutable en el directorio `target`.
 
 ## Ejecutar el Proyecto
 
 1. Ejecuta el archivo JAR generado:
-    java -jar target/user-api-1.0.0.jar
+   ```bash
+   java -jar target/user-api-1.0.0.jar
+   ```
 2. La API estará disponible en `http://localhost:8080/user-api`.
 
 ## Probar la API
@@ -109,7 +118,9 @@ Este proyecto es una API REST para la gestión de usuarios, que incluye funciona
 ## Ejecutar las Pruebas
 
 1. Ejecuta las pruebas unitarias con Maven:
-    mvn test
+   ```bash
+   mvn test
+   ```
 2. Verifica que todas las pruebas pasen correctamente.
 
 ## Notas Adicionales

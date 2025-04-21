@@ -1,0 +1,60 @@
+# Archivos y carpetas generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación
+*.class
+*.jar
+*.war
+*.ear
+
+# Directorios de compilación
+/target/
+/out/
+/build/
+
+# Configuración de IDEs
+/.idea/
+/*.iml
+/.vscode/
+/*.log
+
+# Archivos de Maven
+/.mvn/
+/.settings/
+/dependency-reduced-pom.xml
+/buildNumber.properties
+
+# Archivos de logs
+*.log
+*.log.*
+
+# Archivos de configuración temporales
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Archivos de configuración de Spring Boot
+*.properties~
+*.yml~
+
+# Archivos de H2
+*.db
+*.mv.db
+*.trace.db
+
+# Archivos de cobertura de pruebas
+/coverage/
+/jacoco.exec
+
+# Archivos de sistema
+/.classpath
+/.project
+/.settings/
+/bin/
+/gen/
+/generated/
+
+# Archivos de entorno
+.env
